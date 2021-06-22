@@ -1,0 +1,28 @@
+
+WINDOW 10@DESKTOP-OAFI6OT MINGW64 ~/Desktop/mairap
+$ git init
+Initialized empty Git repository in C:/Users/WINDOW 10/Desktop/mairap/.git/
+
+WINDOW 10@DESKTOP-OAFI6OT MINGW64 ~/Desktop/mairap (master)
+$ git add .
+
+WINDOW 10@DESKTOP-OAFI6OT MINGW64 ~/Desktop/mairap (master)
+$ git commit -m "cambio login"
+[master (root-commit) 6155ae6] cambio login
+ 8 files changed, 177 insertions(+)
+ create mode 100644 estilos.css
+ create mode 100644 images/LaP.jpg
+ create mode 100644 images/badera.jpg
+ create mode 100644 images/cholita.jpg
+ create mode 100644 images/descarga.jfif
+ create mode 100644 images/isla.jpg
+ create mode 100644 images/lapaz.jpg
+ create mode 100644 index.html
+
+WINDOW 10@DESKTOP-OAFI6OT MINGW64 ~/Desktop/mairap (master)
+$ git remote add origin https://github.com/JanethPari/paginaweb.git
+
+WINDOW 10@DESKTOP-OAFI6OT MINGW64 ~/Desktop/mairap (master)
+$ git push -u origin master
+
+
